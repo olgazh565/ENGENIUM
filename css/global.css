@@ -154,7 +154,6 @@ iframe {
 @media screen and (max-width: 767px) {
   .order-btn {
     font-size: 14px;
-    padding: 10px 40px;
     border-radius: 7px;
   }
 }
