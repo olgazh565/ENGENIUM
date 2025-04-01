@@ -1,0 +1,22 @@
+@use './vars';
+
+.about {
+  background-color: #ebf1f4;
+  padding-top: 160px;
+
+  @media screen and (max-width: 1240px) {
+    padding-top: 120px;
+  }
+  @media screen and (max-width: 767px) {
+    padding-top: 100px;
+  }
+
+  &__text {
+    padding-bottom: 20px;
+
+    span {
+      color: vars.$main-color;
+      font-weight: 700;
+    }
+  }
+}

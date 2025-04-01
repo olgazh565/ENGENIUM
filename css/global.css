@@ -1,0 +1,212 @@
+html {
+  position: relative;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+@media screen and (max-width: 1240px) {
+  html {
+    scroll-padding-top: 60px;
+  }
+}
+@media screen and (max-width: 767px) {
+  html {
+    scroll-padding-top: 50px;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2;
+  color: #2B2A29;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1240px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 575px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+main {
+  flex-grow: 1;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  max-height: 100%;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:focus-visible {
+  outline: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+fieldset {
+  margin: 0;
+}
+
+iframe {
+  border: none;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 100px;
+  max-width: 1920px;
+}
+@media screen and (max-width: 1240px) {
+  .container {
+    padding: 0 60px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+.order-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  background-color: #11597F;
+  border: 1px solid #11597F;
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+}
+@media screen and (max-width: 1240px) {
+  .order-btn {
+    font-size: 16px;
+    padding: 12px 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .order-btn {
+    font-size: 14px;
+    padding: 10px 40px;
+    border-radius: 7px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .order-btn {
+    font-size: 12px;
+  }
+}
+.order-btn:hover, .order-btn:focus-visible {
+  color: #11597F;
+  background-color: #fff;
+}
+
+section {
+  padding: 70px 0;
+}
+@media screen and (max-width: 1240px) {
+  section {
+    padding: 50px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  section {
+    padding: 40px 0;
+  }
+}
+@media screen and (max-width: 575px) {
+  section {
+    padding: 30px 0;
+  }
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
+}
+@media screen and (max-width: 1240px) {
+  .title {
+    font-size: 38px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .title {
+    font-size: 26px;
+  }
+}/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,49 @@
+@use './vars';
+
+.sertificates {
+  background-color: #ebf1f4;
+
+  &__text {
+    margin-bottom: 20px;
+
+    span {
+      color: vars.$main-color;
+      font-weight: 700;
+    }
+  }
+
+  &__subtitle {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 1240px) {
+      font-size: 24px;
+    }
+
+    @media screen and (max-width: 767px) {
+      font-size: 20px;
+    }
+    @media screen and (max-width: 575px) {
+      font-size: 18px;
+    }
+  }
+
+  &__list {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 30px;
+
+    @media screen and (max-width: 767px) {
+      padding-left: 15px;
+    }
+  }
+
+  &__item {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

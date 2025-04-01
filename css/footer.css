@@ -1,0 +1,124 @@
+.footer {
+  padding: 60px 0 30px;
+}
+@media screen and (max-width: 575px) {
+  .footer {
+    padding: 50px 0 20px;
+  }
+}
+.footer__wrapper {
+  display: grid;
+  grid-template-columns: 350px 200px 200px;
+  grid-template-areas: "logo map contacts";
+  justify-items: flex-start;
+  gap: 100px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #11597F;
+}
+@media screen and (max-width: 1240px) {
+  .footer__wrapper {
+    grid-template-columns: 250px 200px 200px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .footer__wrapper {
+    grid-template-columns: 200px 200px 200px;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer__wrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "logo logo" "map contacts";
+    gap: 40px 20px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .footer__wrapper {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+}
+.footer__logo {
+  grid-area: logo;
+}
+@media screen and (max-width: 767px) {
+  .footer__logo {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .footer__logo {
+    max-width: 200px;
+  }
+}
+.footer__title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #11597F;
+}
+@media screen and (max-width: 1240px) {
+  .footer__title {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .footer__title {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .footer__title {
+    font-size: 18px;
+  }
+}
+.footer__group_map {
+  grid-area: map;
+}
+.footer__group_contacts {
+  grid-area: contacts;
+}
+.footer__link {
+  margin-bottom: 10px;
+}
+.footer__link a {
+  font-weight: 500;
+  transition: all 0.2s ease-in;
+}
+@media screen and (max-width: 991px) {
+  .footer__link a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .footer__link a {
+    font-size: 12px;
+  }
+}
+.footer__link a:hover, .footer__link a:focus-visible {
+  color: #11597F;
+}
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.footer__text {
+  font-weight: 500;
+}
+@media screen and (max-width: 991px) {
+  .footer__text {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer__text {
+    font-size: 10px;
+  }
+}
+.footer__text a:hover {
+  color: #11597F;
+}/*# sourceMappingURL=footer.css.map */

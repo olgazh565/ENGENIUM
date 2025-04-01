@@ -1,0 +1,339 @@
+.solutions {
+  padding-bottom: 100px;
+}
+@media screen and (max-width: 1240px) {
+  .solutions {
+    padding-bottom: 80px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .solutions {
+    padding-bottom: 60px;
+  }
+}
+.solutions__tabs-bar {
+  display: flex;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #11597F;
+}
+@media screen and (max-width: 767px) {
+  .solutions__tabs-bar {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .solutions__tabs-bar {
+    border-radius: 3px;
+  }
+}
+.solutions__tab {
+  background-color: #ebf1f4;
+  color: #2B2A29;
+  border: 1px solid transparent;
+  outline: none;
+  padding: 40px 20px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  flex: 0 1 50%;
+  transition: all 0.3s ease-in;
+  max-width: 50%;
+}
+@media screen and (max-width: 1240px) {
+  .solutions__tab {
+    padding: 30px 20px;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .solutions__tab {
+    padding: 25px 20px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .solutions__tab {
+    padding: 15px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .solutions__tab {
+    padding: 15px 10px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .solutions__tab {
+    padding: 10px 2px;
+    font-size: 14px;
+  }
+}
+.solutions__tab:hover {
+  background-color: #8cafc3;
+}
+.solutions__tab:focus-visible {
+  border-color: black;
+}
+.solutions__tab.active {
+  background-color: #11597F;
+  color: #fff;
+}
+
+.solution {
+  display: none;
+}
+.solution.active {
+  display: block;
+}
+.solution__title {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1240px) {
+  .solution__title {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .solution__title {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .solution__title {
+    font-size: 20px;
+  }
+}
+.solution__text {
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 767px) {
+  .solution__text {
+    margin-bottom: 30px;
+  }
+}
+.solution__text span {
+  font-size: 20px;
+  font-weight: 700;
+}
+@media screen and (max-width: 1240px) {
+  .solution__text span {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .solution__text span {
+    font-size: 12px;
+  }
+}
+.solution__text_price {
+  margin-bottom: 20px;
+}
+.solution__subtitle {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  text-align: center;
+}
+@media screen and (max-width: 1240px) {
+  .solution__subtitle {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .solution__subtitle {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .solution__subtitle {
+    font-size: 18px;
+  }
+}
+
+.timeline {
+  margin-bottom: 30px;
+}
+.timeline__item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #11597F;
+}
+@media screen and (max-width: 575px) {
+  .timeline__item {
+    gap: 15px;
+    padding: 15px 5px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .timeline__item {
+    gap: 5px;
+  }
+}
+.timeline__item:first-of-type {
+  border-top: 1px solid #11597F;
+}
+.timeline__period {
+  flex-basis: 15%;
+  flex-shrink: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #E60D5C;
+}
+@media screen and (max-width: 1240px) {
+  .timeline__period {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .timeline__period {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .timeline__period {
+    flex-basis: 20%;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 375px) {
+  .timeline__period {
+    flex-basis: 25%;
+  }
+}
+.timeline__subtitle {
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.consulting__item {
+  margin-bottom: 50px;
+  padding-top: 40px;
+  border-top: 1px solid #11597F;
+}
+@media screen and (max-width: 575px) {
+  .consulting__item {
+    margin-bottom: 40px;
+    padding-top: 30px;
+  }
+}
+.consulting__item:last-child {
+  margin-bottom: 0;
+}
+.consulting__item:first-of-type {
+  padding-top: 0;
+  border-top: none;
+}
+.consulting__block {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 1600px) {
+  .consulting__block {
+    flex-wrap: wrap;
+  }
+}
+.consulting__wrap {
+  padding: 20px;
+  flex: 0 1 25%;
+  border: 1px solid #11597F;
+  border-radius: 10px;
+  box-shadow: 4px 5px #8cafc3;
+}
+@media screen and (max-width: 1600px) {
+  .consulting__wrap {
+    flex-basis: 32%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .consulting__wrap {
+    flex-basis: 48%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .consulting__wrap {
+    padding: 15px;
+    flex-basis: 100%;
+  }
+}
+.consulting__desc span {
+  font-weight: 700;
+  color: #11597F;
+}
+.consulting__heading {
+  font-weight: 700;
+  color: #11597F;
+  margin-bottom: 10px;
+}
+.consulting__btn-wrap {
+  display: flex;
+  justify-content: center;
+}
+.consulting__btn-wrap .order-btn {
+  padding: 20px 70px;
+}
+@media screen and (max-width: 1240px) {
+  .consulting__btn-wrap .order-btn {
+    padding: 20px 80px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .consulting__btn-wrap .order-btn {
+    padding: 15px;
+    width: 100%;
+  }
+}
+.consulting .twi__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1240px) {
+  .consulting .twi__title {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .consulting .twi__title {
+    font-size: 16px;
+  }
+}
+.consulting .twi__desc {
+  margin-bottom: 20px;
+}
+.consulting .twi__list {
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 575px) {
+  .consulting .twi__list {
+    padding-left: 10px;
+  }
+}
+.consulting .twi__item {
+  margin-bottom: 8px;
+}
+.consulting .twi__item span {
+  font-size: 20px;
+  font-weight: 600;
+}
+@media screen and (max-width: 1240px) {
+  .consulting .twi__item span {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .consulting .twi__item span {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=solutions.css.map */

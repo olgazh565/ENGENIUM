@@ -1,0 +1,127 @@
+@use './vars';
+
+.footer {
+  padding: 60px 0 30px;
+
+  @media screen and (max-width: 575px) {
+    padding: 50px 0 20px;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 350px 200px 200px;
+    grid-template-areas: 'logo map contacts';
+    justify-items: flex-start;
+    gap: 100px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid vars.$main-color;
+
+    @media screen and (max-width: 1240px) {
+      grid-template-columns: 250px 200px 200px;
+    }
+
+    @media screen and (max-width: 991px) {
+      grid-template-columns: 200px 200px 200px;
+      gap: 50px;
+    }
+
+    @media screen and (max-width: 767px) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: 'logo logo' 'map contacts';
+      gap: 40px 20px;
+    }
+
+    @media screen and (max-width: 575px) {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+  }
+
+  &__logo {
+    grid-area: logo;
+
+    @media screen and (max-width: 767px) {
+      max-width: 300px;
+    }
+
+    @media screen and (max-width: 575px) {
+      max-width: 200px;
+    }
+  }
+
+  &__title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid vars.$main-color;
+
+    @media screen and (max-width: 1240px) {
+      font-size: 24px;
+    }
+
+    @media screen and (max-width: 991px) {
+      font-size: 22px;
+    }
+
+    @media screen and (max-width: 575px) {
+      font-size: 18px;
+    }
+  }
+
+  &__group {
+    &_map {
+      grid-area: map;
+    }
+
+    &_contacts {
+      grid-area: contacts;
+    }
+  }
+
+  &__link {
+    margin-bottom: 10px;
+
+    a {
+      font-weight: 500;
+      transition: all .2s ease-in;
+
+      @media screen and (max-width: 991px) {
+        font-size: 14px;
+      }
+
+      @media screen and (max-width: 575px) {
+        font-size: 12px;
+      }
+
+      &:hover,
+      &:focus-visible {
+        color: vars.$main-color;
+      }
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  &__text {
+    font-weight: 500;
+
+    @media screen and (max-width: 991px) {
+      font-size: 12px;
+    }
+
+    @media screen and (max-width: 767px) {
+      font-size: 10px;
+    }
+    a {
+      &:hover {
+        color: vars.$main-color;
+      }
+    }
+  }
+}

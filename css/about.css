@@ -1,0 +1,21 @@
+.about {
+  background-color: #ebf1f4;
+  padding-top: 160px;
+}
+@media screen and (max-width: 1240px) {
+  .about {
+    padding-top: 120px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .about {
+    padding-top: 100px;
+  }
+}
+.about__text {
+  padding-bottom: 20px;
+}
+.about__text span {
+  color: #11597F;
+  font-weight: 700;
+}/*# sourceMappingURL=about.css.map */
