@@ -116,7 +116,6 @@
           color: vars.$main-color;
         }
 
-
         @media screen and (max-width: 1240px) {
           font-size: 14px;
           font-weight: 500;
@@ -129,10 +128,6 @@
 
         @media screen and (max-width: 991px) {
           font-size: 16px;
-        }
-
-        @media screen and (max-width: 575px) {
-          font-size: 14px;
         }
       }
     }
