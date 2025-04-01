@@ -61,11 +61,6 @@
     max-width: 180px;
   }
 }
-@media screen and (max-width: 575px) {
-  .header__logo {
-    max-width: 150px;
-  }
-}
 .header__logo img {
   width: 100%;
   height: auto;
