@@ -1,0 +1,111 @@
+.resources__item {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: max-content 1fr;
+  grid-template-areas: "img info" "img desc";
+  gap: 20px 40px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1240px) {
+  .resources__item {
+    gap: 10px 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .resources__item {
+    gap: 10px 15px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .resources__item {
+    grid-template-areas: "img info" "desc desc";
+    grid-template-columns: 150px 1fr;
+    gap: 20px 15px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .resources__item {
+    grid-template-columns: 100px 1fr;
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .resources__item {
+    grid-template-columns: 70px 1fr;
+  }
+}
+.resources__item:last-child {
+  margin-bottom: 0;
+}
+.resources__img {
+  grid-area: img;
+}
+.resources__img img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.resources__info {
+  grid-area: info;
+  font-weight: 600;
+}
+@media screen and (max-width: 575px) {
+  .resources__info {
+    font-weight: 500;
+  }
+}
+.resources__name {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 1240px) {
+  .resources__name {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .resources__name {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .resources__name {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .resources__name {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .resources__name {
+    font-size: 14px;
+  }
+}
+.resources__author {
+  font-size: 22px;
+}
+@media screen and (max-width: 1240px) {
+  .resources__author {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .resources__author {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .resources__author {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .resources__author {
+    font-size: 12px;
+  }
+}
+.resources__desc {
+  grid-area: desc;
+}/*# sourceMappingURL=resources.css.map */

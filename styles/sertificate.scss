@@ -1,8 +1,6 @@
 @use './vars';
 
 .sertificates {
-  background-color: #ebf1f4;
-
   &__text {
     margin-bottom: 20px;
 
@@ -17,10 +15,9 @@
     font-weight: 600;
     margin-bottom: 20px;
 
-    @media screen and (max-width: 1240px) {
+    @media screen and (max-width: 991px) {
       font-size: 24px;
     }
-
     @media screen and (max-width: 767px) {
       font-size: 20px;
     }

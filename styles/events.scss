@@ -1,0 +1,31 @@
+@use './vars';
+
+.events {
+  &__text {
+    margin-bottom: 20px;
+
+    span {
+      color: vars.$main-color;
+      font-weight: 700;
+    }
+  }
+
+  &__imgs {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    @media screen and (max-width: 767px) {
+      gap: 10px;
+    }
+    @media screen and (max-width: 575px) {
+      flex-direction: column;
+    }
+  }
+
+  &__img {
+    img {
+      width: 100%;
+    }
+  }
+}

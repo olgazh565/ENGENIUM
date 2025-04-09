@@ -161,7 +161,7 @@ iframe {
   }
 }
 
-section {
+.section {
   padding: 70px 0;
 
   @media screen and (max-width: 1240px) {
@@ -171,8 +171,21 @@ section {
   @media screen and (max-width: 767px) {
     padding: 40px 0;
   }
+
   @media screen and (max-width: 575px) {
     padding: 30px 0;
+  }
+
+  &_first{
+    padding-top: 160px;
+
+    @media screen and (max-width: 1240px) {
+      padding-top: 120px;
+    }
+
+    @media screen and (max-width: 767px) {
+      padding-top: 100px;
+    }
   }
 }
 

@@ -167,22 +167,35 @@ iframe {
   background-color: #fff;
 }
 
-section {
+.section {
   padding: 70px 0;
 }
 @media screen and (max-width: 1240px) {
-  section {
+  .section {
     padding: 50px 0;
   }
 }
 @media screen and (max-width: 767px) {
-  section {
+  .section {
     padding: 40px 0;
   }
 }
 @media screen and (max-width: 575px) {
-  section {
+  .section {
     padding: 30px 0;
+  }
+}
+.section_first {
+  padding-top: 160px;
+}
+@media screen and (max-width: 1240px) {
+  .section_first {
+    padding-top: 120px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section_first {
+    padding-top: 100px;
   }
 }
 

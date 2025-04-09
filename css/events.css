@@ -1,0 +1,25 @@
+.events__text {
+  margin-bottom: 20px;
+}
+.events__text span {
+  color: #11597F;
+  font-weight: 700;
+}
+.events__imgs {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media screen and (max-width: 767px) {
+  .events__imgs {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .events__imgs {
+    flex-direction: column;
+  }
+}
+.events__img img {
+  width: 100%;
+}/*# sourceMappingURL=events.css.map */
