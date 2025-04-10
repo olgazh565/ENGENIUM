@@ -56,7 +56,7 @@
     max-width: 200px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
   .header__logo {
     max-width: 180px;
   }
@@ -115,12 +115,6 @@
     font-weight: 500;
   }
 }
-@media screen and (max-width: 1024px) {
-  .header__nav .nav__item a {
-    font-size: 12px;
-    font-weight: 500;
-  }
-}
 @media screen and (max-width: 991px) {
   .header__nav .nav__item a {
     font-size: 16px;
@@ -136,8 +130,8 @@
     display: block;
     position: absolute;
     z-index: 20;
-    top: 12px;
-    right: 20px;
+    top: 15px;
+    right: 25px;
   }
 }
 

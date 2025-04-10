@@ -180,11 +180,6 @@ iframe {
     padding: 40px 0;
   }
 }
-@media screen and (max-width: 575px) {
-  .section {
-    padding: 30px 0;
-  }
-}
 .section_first {
   padding-top: 160px;
 }
